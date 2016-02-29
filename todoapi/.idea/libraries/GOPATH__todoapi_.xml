@@ -1,0 +1,64 @@
+<component name="libraryTable">
+  <library name="GOPATH &lt;todoapi&gt;">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../xuexigonet" />
+      <root url="file://$PROJECT_DIR$/../../todoservice" />
+      <root url="file://$PROJECT_DIR$/../../xxbeego" />
+      <root url="file://$PROJECT_DIR$/../../github.com" />
+      <root url="file://$PROJECT_DIR$/../../golang.org" />
+      <root url="file://$PROJECT_DIR$/../../xxorm" />
+      <root url="file://$PROJECT_DIR$/../../gopkg.in" />
+      <root url="file://$PROJECT_DIR$/.." />
+    </CLASSES>
+    <SOURCES />
+    <excluded>
+      <root url="file://$PROJECT_DIR$/../../github.com/derekparker/delve/dwarf/frame/testdata" />
+      <root url="file://$PROJECT_DIR$/.idea" />
+      <root url="file://$PROJECT_DIR$/../../github.com/cpuguy83/go-md2man/.git" />
+      <root url="file://$PROJECT_DIR$/../../github.com/beego/bee/.git" />
+      <root url="file://$PROJECT_DIR$/../../github.com/pmezard/go-difflib/.git" />
+      <root url="file://$PROJECT_DIR$/../../github.com/smartystreets/assertions/internal/oglemock/createmock/testdata" />
+      <root url="file://$PROJECT_DIR$/../.git" />
+      <root url="file://$PROJECT_DIR$/../../github.com/smartystreets/assertions/internal/oglemock/generate/testdata" />
+      <root url="file://$PROJECT_DIR$" />
+      <root url="file://$PROJECT_DIR$/../../github.com/spf13/pflag/.git" />
+      <root url="file://$PROJECT_DIR$/../../github.com/peterh/liner/.git" />
+      <root url="file://$PROJECT_DIR$/../../github.com/open-falcon/.git" />
+      <root url="file://$PROJECT_DIR$/../../github.com/russross/blackfriday/testdata" />
+      <root url="file://$PROJECT_DIR$/../../github.com/shadowsocks/shadowsocks-go/.git" />
+      <root url="file://$PROJECT_DIR$/../../xxorm/.idea" />
+      <root url="file://$PROJECT_DIR$/../../github.com/inconshreveable/mousetrap/.git" />
+      <root url="file://$PROJECT_DIR$/../../golang.org/x/crypto/ssh/testdata" />
+      <root url="file://$PROJECT_DIR$/../../github.com/stretchr/objx/.git" />
+      <root url="file://$PROJECT_DIR$/../../github.com/shadowsocks/shadowsocks-go/.idea" />
+      <root url="file://$PROJECT_DIR$/../../github.com/jtolds/gls/.git" />
+      <root url="file://$PROJECT_DIR$/../../github.com/astaxie/beego/utils/testdata" />
+      <root url="file://$PROJECT_DIR$/../../github.com/lib/pq/.git" />
+      <root url="file://$PROJECT_DIR$/../../github.com/russross/blackfriday/.git" />
+      <root url="file://$PROJECT_DIR$/../../github.com/davecgh/go-spew/spew/testdata" />
+      <root url="file://$PROJECT_DIR$/../../gopkg.in/yaml.v2/.git" />
+      <root url="file://$PROJECT_DIR$/../../todoservice/.idea" />
+      <root url="file://$PROJECT_DIR$/../../golang.org/x/sys/.git" />
+      <root url="file://$PROJECT_DIR$/../../github.com/derekparker/delve/_fixtures" />
+      <root url="file://$PROJECT_DIR$/../../github.com/derekparker/delve/.git" />
+      <root url="file://$PROJECT_DIR$/../../github.com/stretchr/testify/.git" />
+      <root url="file://$PROJECT_DIR$/../../github.com/smartystreets/goconvey/.git" />
+      <root url="file://$PROJECT_DIR$/../../github.com/beego/bee/testdata" />
+      <root url="file://$PROJECT_DIR$/../../golang.org/x/crypto/sha3/testdata" />
+      <root url="file://$PROJECT_DIR$/../../github.com/go-sql-driver/mysql/.git" />
+      <root url="file://$PROJECT_DIR$/../../github.com/davecgh/go-spew/.git" />
+      <root url="file://$PROJECT_DIR$/../../github.com/smartystreets/assertions/.git" />
+      <root url="file://$PROJECT_DIR$/../../github.com/shadowsocks/shadowsocks-go/shadowsocks/testdata" />
+      <root url="file://$PROJECT_DIR$/../../golang.org/x/crypto/.git" />
+      <root url="file://$PROJECT_DIR$/../../github.com/shurcooL/sanitized_anchor_name/.git" />
+      <root url="file://$PROJECT_DIR$/../../github.com/codahale/chacha20/.git" />
+      <root url="file://$PROJECT_DIR$/../../github.com/open-falcon/.idea" />
+      <root url="file://$PROJECT_DIR$/../../github.com/spf13/cobra/.git" />
+      <root url="file://$PROJECT_DIR$/../../xuexigonet/.git" />
+      <root url="file://$PROJECT_DIR$/../../xxbeego/.idea" />
+      <root url="file://$PROJECT_DIR$/../../github.com/howeyc/fsnotify/.git" />
+      <root url="file://$PROJECT_DIR$/../../xuexigonet/.idea" />
+      <root url="file://$PROJECT_DIR$/../../github.com/astaxie/beego/.git" />
+    </excluded>
+  </library>
+</component>
