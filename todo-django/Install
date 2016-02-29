@@ -1,0 +1,10 @@
+# django 1.92 djangorestframework 3.3.2
+pip install virtualenv
+mkdir venv
+virtualenv venv/todo
+cd venv/todo
+source bin/activate
+pip install gunicorn
+pip install django
+pip install djangorestframework
+gunicorn mydjango.wsgi:application -w 2 -b 0:8000
