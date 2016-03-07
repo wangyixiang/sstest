@@ -1,4 +1,5 @@
 CREATE DATABASE `tododb` /*!40100 DEFAULT CHARACTER SET utf8 */;
+USE `todoapi`;
 CREATE TABLE `todo_webapi_todoitem` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `content` varchar(255) CHARACTER SET latin1 NOT NULL DEFAULT '',
