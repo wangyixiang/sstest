@@ -5,8 +5,12 @@
   vars:
     nginx_service_port: 9090
   tasks:
+    - name: get nginx official signing key
+      apt_key: url=http://nginx.org/keys/nginx_signing.key state=present
+      sudo: True
+
     - name: adding nginx official apt install source
-      shell: wget http://nginx.org/keys/nginx_signing.key -O nginx_siging.key && apt-key add nginx_signing.key && add-apt-repository 'deb http://nginx.org/packages/ubuntu/ trusty nginx'
+      apt_repository: repo='deb http://nginx.org/packages/ubuntu/ trusty nginx' state=present
       sudo: True
 
     - name: install nginx, supervisor, mysql5.6 through apt
