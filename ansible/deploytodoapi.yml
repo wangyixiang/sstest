@@ -1,0 +1,36 @@
+#!/usr/bin/env ansible-playbook
+---
+- name: build todoapi
+  hosts: localhost
+  tasks:
+    - name: build todoapi under current directory
+      shell: go build ../todoapi/
+
+- name: deploy todoapi to testing server
+  hosts: tserver
+  tasks:
+    - name: make sure todoapi in state of stopped
+      supervisorctl: name=todoapi state=stopped
+      sudo: True
+
+    - name: copy todoapi to the testing server
+      copy: src={{ item.src }} dest={{ item.dest }}
+      sudo: True
+      with_items:
+        - {src: todoapi, dest: /gowork/bin/todoapi}
+
+    - name: copy the sstest supervisor configuration file
+      copy: src={{ item.src }} dest={{ item.dest }}
+      sudo: True
+      with_items:
+        - {src: ../supervisor/supervisor/conf.d/todoapi.conf, dest: /etc/supervisor/conf.d/todoapi.conf}
+
+    - name: make sure todoapi in state of started
+      supervisorctl: name=todoapi state=started
+      sudo: True
+
+- name: clean todoapi
+  hosts: localhost
+  tasks:
+    - name: clean todoapi under current directory
+      file: path=todoapi state=absent
